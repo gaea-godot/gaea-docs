@@ -1,5 +1,4 @@
 * [📦 Home](/)
-* [🍻 Contribute](/contribute.md)
 * [1.X](/1.X/)
   * [📦 Getting Started](/1.X/)
   * [✨ Gaea's Resources](/1.X/resources.md)
@@ -21,3 +20,4 @@
   * [💡 Tutorials](/2.0/tutorials/)
     * [🩻 Anatomy of a Graph](/2.0/tutorials/anatomy-of-a-graph.md) 
     * [⭐ Generating Terrain](/2.0/tutorials/generating-terrain.md)
+* [🍻 Contribute](/contribute.md)
