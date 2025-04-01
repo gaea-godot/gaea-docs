@@ -19,7 +19,7 @@
       repo: 'https://github.com/BenjaTK/Gaea',
       loadSidebar: true,
       loadNavbar: true,
-      coverpage: true,
+      coverpage: false,
       alias: {
         '/.*/_navbar.md': '/_navbar.md',
         '/.*/_sidebar.md': '/_sidebar.md' // Leaving this off uses the sidebar from whatever subdirectory we're in.
@@ -31,18 +31,17 @@
         style: 'text-align: right;',
         class: 'className',
       },
-      // Docsify Sidebar Collapse
-      sidebarDisplayLevel: 0, // sets the sidebar display level
       // Docsify Versioned Plugin
       versions: [
-        {folder: '#/2.0', label: 'v2.0', default: false },
-        {folder: '#/1.X', label: 'v1.X', default: false }
+        {folder: '2.0', label: '2.0', default: true },
+        {folder: '1.X', label: '1.X', default: false }
       ],
-      versionSelectorLabel: 'Version'
+      versionSelectorLabel: ' '
     };
   </script>
   <!-- Docsify v4 -->
   <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
+  <script src="/docsify-plugin-versioned.js"></script>
   <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/search.min.js"></script>
   <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/zoom-image.min.js"></script>
   <script src="//cdn.jsdelivr.net/npm/docsify-copy-code/dist/docsify-copy-code.min.js"></script>
@@ -50,14 +49,6 @@
   <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-gdscript.min.js"></script>
   <script src="//unpkg.com/docsify-pagination/dist/docsify-pagination.min.js"></script>
 
-  <!-- Docsify Sidebar Collapse -->
-  <!-- Has wierd behavior w/ Docsify Versioned Plugin -->
-  <script src="//cdn.jsdelivr.net/npm/docsify-sidebar-collapse/dist/docsify-sidebar-collapse.min.js"></script>
-
-  <!-- Docsify Versioned Plugin -->
-  <!-- Breaks direct links... -->
-  <!--
-  <script src="https://cdn.jsdelivr.net/npm/docsify-versioned-plugin@0.0.1/index.js"></script>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsify-versioned-plugin@0.0.1/styles.css">
   <script>
     (function() {
@@ -76,6 +67,5 @@
       };
     })();
   </script>
-  -->
 </body>
 </html>

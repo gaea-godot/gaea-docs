@@ -4,10 +4,10 @@ The **Heightmap Generator** employs noise algorithms to create detailed, two-dim
 
 ## HeightmapGenerator2D
 
-![Terraria-like terrain using 2 generators and a carver modifier](../../assets/terraria-like-generation.png)
+![Terraria-like terrain using 2 generators and a carver modifier](../assets/terraria-like-generation.png)
 ## HeightmapGenerator3D
-![Minecraft-like terrain using HeightmapGenerator3D](../../assets/heightmap-3d-showcase.png)
+![Minecraft-like terrain using HeightmapGenerator3D](../assets/heightmap-3d-showcase.png)
 
 # How to use
 
-Check out the [side-view terrain](../tutorials/heightmap_generator.md) tutorial.
+Check out the [side-view terrain](/tutorials/heightmap_generator.md) tutorial.
