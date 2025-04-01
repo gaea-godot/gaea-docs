@@ -1,6 +1,6 @@
 ![Gaea](../logo.svg)
 
-# 🌍 Gaea
+# 🌍 Gaea {{versionLabel}}
 
 [![](https://img.shields.io/badge/BenjaTK-Follow%20me!-%23FA5C5C?style=for-the-badge&logo=itchdotio&logoColor=white
 )](https://benjatk.itch.io/) [![](https://img.shields.io/badge/Docs-%239dbd4b?style=for-the-badge&logo=https%3A%2F%2Ffonts.googleapis.com%2Fcss2%3Ffamily%3DMaterial%2BSymbols%2BOutlined%3Aopsz%2Cwght%2CFILL%2CGRAD%4048%2C400%2C1%2C0&logoColor=white
@@ -12,8 +12,6 @@ Gaea is an **add-on for Godot 4.3***, designed to empower your project with adva
 
 *For 4.2, use v1.1.3 or lower. For 4.0-4.1, use v0.6.2 or lower.
 
-> **NOTE:** Gaea is currently in early development, and may not yet be optimized for larger, more complex projects. Stay tuned for ongoing improvements and enhancements!
-
 ### What's in a Name?
 
 **Gaea**, in Greek mythology, is the personification of Earth - a nod towards the terrain and world generation capabilities this addon brings to your game development toolkit. Plus, we think it sounds pretty cool.
@@ -23,7 +21,7 @@ Gaea is an **add-on for Godot 4.3***, designed to empower your project with adva
 ## Generators
 Our collection of generators, including Cellular, Heightmap, and Walker, allow for dynamic and unique world creation. Whether you're looking to create intricate cave systems or sprawling landscapes, Gaea's got you covered.
 
-![generators showcase](../assets/generators-showcase.png)
+![generators showcase](/assets/generators-showcase.png)
 
 ## Modifiers
 Further fine-tune your procedurally generated worlds with our set of modifiers. Add layers of complexity and fine-tune the details to create environments that truly come alive.
@@ -36,8 +34,8 @@ Gaea comes with a `ChunkLoader` node that can generate an area around an `actor`
 
 # Videos
 #### A great tutorial for beginners:
-[![How to Create Procedural Generation in Godot 4](../assets/devworm-thumbnail.jpg)](https://youtu.be/oB1xsCcO9wI "How to Create Procedural Generation in Godot 4")
-[![10+2 AWESOME ADDONS for GODOT 4 by MrElipteach](../assets/mrelipteach-thumbnail.jpg)](https://youtu.be/-FQNPCB7e3s?t=144&si=myv2OsGoLa7jiUfi "10+2 AWESOME ADDONS for GODOT 4 by MrElipteach")
+[![How to Create Procedural Generation in Godot 4](/assets/devworm-thumbnail.jpg)](https://youtu.be/oB1xsCcO9wI "How to Create Procedural Generation in Godot 4")
+[![10+2 AWESOME ADDONS for GODOT 4 by MrElipteach](/assets/mrelipteach-thumbnail.jpg)](https://youtu.be/-FQNPCB7e3s?t=144&si=myv2OsGoLa7jiUfi "10+2 AWESOME ADDONS for GODOT 4 by MrElipteach")
 
 # 🔧 Installation Steps
 
