@@ -2,7 +2,7 @@
 
 **Wave Function Collapse** is an algorithm made by [Maxim Gumin](https://github.com/mxgmn), which can procedurally generate anything using a **set of rules** about which tiles can be placed next to what.
 
-<video src="1.X/../assets/wave_function_showcase.mp4" controls title="Title"></video>
+<video src="/1.X/assets/wave_function_showcase.mp4" controls title="Title"></video>
 
 ## How does it work?
 

@@ -65,4 +65,4 @@ You can use filters for all kind of things like this. For example, we can add a 
 
 ## And it's done!
 
-You have very basic, but easy to expand, terrain generation. 3D works basically the same (though you can use a `GridMap` instead), so give it a try! `HeightmapGenerator`s also work with chunk generation, so check out the [chunk generation tutorial](tutorials/chunk_generation.md).
+You have very basic, but easy to expand, terrain generation. 3D works basically the same (though you can use a `GridMap` instead), so give it a try! `HeightmapGenerator`s also work with chunk generation, so check out the [chunk generation tutorial](1.X/tutorials/chunk_generation.md).

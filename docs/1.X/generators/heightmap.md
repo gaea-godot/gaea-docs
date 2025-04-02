@@ -10,4 +10,4 @@ The **Heightmap Generator** employs noise algorithms to create detailed, two-dim
 
 # How to use
 
-Check out the [side-view terrain](/tutorials/heightmap_generator.md) tutorial.
+Check out the [side-view terrain](1.X/tutorials/heightmap_generator.md) tutorial.
