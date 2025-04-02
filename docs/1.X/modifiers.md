@@ -18,26 +18,26 @@ Modifiers can be filtered. This means it will only modify certain tiles.
 
 There are a few modifiers in Gaea at the moment:
 
-### <img src="assets/icons/generate_borders.svg" width="24" height="24" style="float:left;margin:0px 8px 0px 0px"> Generate Borders
+### <img src="1.X/assets/icons/generate_borders.svg" width="24" height="24" style="float:left;margin:0px 8px 0px 0px"> Generate Borders
 
 Generate border tiles around already placed tiles.
 
-### <img src="assets/icons/fill.svg" width="24" height="24" style="float:left;margin:0px 8px 0px 0px"> Fill 
+### <img src="1.X/assets/icons/fill.svg" width="24" height="24" style="float:left;margin:0px 8px 0px 0px"> Fill 
 
 Fills the full rectangle of tiles.
 
 ![fill showcase](/assets/fill-showcase.png)
 *Using Fill to generate autotiled walls around a WalkerGenerator's generation.*
 
-### <img src="assets/icons/carver.svg" width="24" height="24" style="float:left;margin:0px 8px 0px 0px"> Carver <sup>2D/3D</sup>
+### <img src="1.X/assets/icons/carver.svg" width="24" height="24" style="float:left;margin:0px 8px 0px 0px"> Carver <sup>2D/3D</sup>
 
 Carves holes into the map using a noise texture.
 
-### <img src="assets/icons/smooth.svg" width="24" height="24" style="float:left;margin:0px 8px 0px 0px"> Smooth
+### <img src="1.X/assets/icons/smooth.svg" width="24" height="24" style="float:left;margin:0px 8px 0px 0px"> Smooth
 
 Smoothes the map using Cellular Automata.
 
-### <img src="assets/icons/walls.svg" width="24" height="24" style="float:left;margin:0px 8px 0px 0px"> Walls
+### <img src="1.X/assets/icons/walls.svg" width="24" height="24" style="float:left;margin:0px 8px 0px 0px"> Walls
 
 Adds tiles to those below already placed tiles that aren't the Generator's default tile.
 
@@ -48,18 +48,18 @@ An example without the Walls modifier looks like this:
 
 ![without walls modifier](/assets/walls-modifier-showcase-before.png)
 
-### <img src="assets/icons/noise_painter.svg" width="24" height="24" style="float:left;margin:0px 8px 0px 0px"> Noise Painter <sup>2D/3D</sup>
+### <img src="1.X/assets/icons/noise_painter.svg" width="24" height="24" style="float:left;margin:0px 8px 0px 0px"> Noise Painter <sup>2D/3D</sup>
 
 Replaces tiles in the map with another tile based on a noise texture and a threshold.
 
-### <img src="assets/icons/heightmap_painter.svg" width="24" height="24" style="float:left;margin:0px 8px 0px 0px"> Heightmap Painter <sup>2D/3D</sup>
+### <img src="1.X/assets/icons/heightmap_painter.svg" width="24" height="24" style="float:left;margin:0px 8px 0px 0px"> Heightmap Painter <sup>2D/3D</sup>
 
 Replaces tiles in the map with another tile based on a noise heightmap.
 
-### <img src="assets/icons/remove_disconnected.svg" width="24" height="24" style="float:left;margin:0px 8px 0px 0px"> Remove Disconnected
+### <img src="1.X/assets/icons/remove_disconnected.svg" width="24" height="24" style="float:left;margin:0px 8px 0px 0px"> Remove Disconnected
 
 Uses flood fill to remove all tiles that aren't connected to `starting_tile`.
 
-### <img src="assets/icons/advanced_modifier.svg" width="24" height="24" style="float:left;margin:0px 8px 0px 0px"> Advanced Modifier <sup>2D/3D</sup>
+### <img src="1.X/assets/icons/advanced_modifier.svg" width="24" height="24" style="float:left;margin:0px 8px 0px 0px"> Advanced Modifier <sup>2D/3D</sup>
 
-Lets you basically make any modifier you want. Has a list of **conditions**. Every cell it tries to modify, it will check that all conditions are met, and only then will it (re)place that cell with the chosen `TileInfo`. See [the tutorial](tutorials/advanced_modifier.md) on how to use it.
+Lets you basically make any modifier you want. Has a list of **conditions**. Every cell it tries to modify, it will check that all conditions are met, and only then will it (re)place that cell with the chosen `TileInfo`. See [the tutorial](1.X/tutorials/advanced_modifier.md) on how to use it.

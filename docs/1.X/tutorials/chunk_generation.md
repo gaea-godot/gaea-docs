@@ -40,8 +40,8 @@ After this has been done ... **_VOILÀ!_** You now have Chunk Generation enabled
 
 ### It's running really slowly...
 
-Don't worry! Go to [Lightning Fast Generation](tutorials/optimization.md) for a quick tutorial on how to improve speeds.
+Don't worry! Go to [Lightning Fast Generation](1.X/tutorials/optimization.md) for a quick tutorial on how to improve speeds.
 
 ## 3D Chunk Generation
 
-Chunk loading in 3D works the same as in 2D. Nodes mentioned above have their own 3D variant, such as `ChunkLoader3D`. Tips for optimization can also be found in [Lightning Fast Generation](tutorials/optimization.md). In 3D, these are especially important as it requires more power.s
+Chunk loading in 3D works the same as in 2D. Nodes mentioned above have their own 3D variant, such as `ChunkLoader3D`. Tips for optimization can also be found in [Lightning Fast Generation](1.X/tutorials/optimization.md). In 3D, these are especially important as it requires more power.s
