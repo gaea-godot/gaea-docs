@@ -4,7 +4,7 @@ In this tutorial we'll create a very simple terrain. This isn't the only way to 
 
 # Adding your Generator Node
 
-As explained in [How Gaea Works](/how-gaea-works.md), add your `GaeaGenerator` node and create a `GaeaData` resource.
+As explained in [How Gaea Works](/2.0/tutorials/how-gaea-works.md), add your `GaeaGenerator` node and create a `GaeaData` resource.
 
 # Generating the Noise Data
 
