@@ -2,8 +2,7 @@
 
 # 🌍 Gaea
 
-[![](https://img.shields.io/badge/BenjaTK-Follow%20me!-%23FA5C5C?style=for-the-badge&logo=itchdotio&logoColor=white
-)](https://benjatk.itch.io/) [![](https://img.shields.io/badge/-Gamedev%20Graveyard-5865f2?style=for-the-badge&logo=discord&labelColor=white)](https://discord.gg/V7UsX54V49)
+[![](https://img.shields.io/badge/-Gamedev%20Graveyard-5865f2?style=for-the-badge&logo=discord&labelColor=white)](https://discord.gg/V7UsX54V49)
 > Join the **Gamedev Graveyard** discord server to get notified about Gaea and hang out with other devs.
 
 Gaea is an **add-on for Godot 4.X**\*, designed to empower your project with advanced **procedural generation** capabilities.
