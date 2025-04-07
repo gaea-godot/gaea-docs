@@ -38,7 +38,7 @@ This resource tells the renderer what to draw. For `TilemapMaterial`s, you'll ne
 
 Create those 2 nodes and assign the generator to the renderer, and the tile map layer to the first element in the renderer's `tile_map_layers` array. You can set those aside for now.
 
-Now, connect the `MaterialVariable` node to the `Material` input in the mapper. Finally, connect the mapper's `Map` output to the `Layer 0` input in the `Output` node.
+Now, connect the `MaterialVariable` node to the `material` input in the mapper. Finally, connect the mapper's `map` output to the `Layer 0` input in the `Output` node.
 
 ![All the nodes connected together](/../assets/tutorials/generating-terrain/final.png)
 
@@ -48,7 +48,7 @@ That's it! Click the generate button in the top right of the panel and see the m
 
 # Adding More Terrain Types
 
-You can add more terrain types by adding more mapper nodes, and merging their outputs with the `MergeMaps` node. For example, this...
+You can add more terrain types by adding more mapper nodes, and merging their outputs with the `MapUnion` node. For example, this...
 
 ![A graph with more ThresholdMappers for sand and water, of the ranges 0.45-0.5 and 0.0-0.45 respectively. They all connect to a MergeMaps node, which outputs to the Output node](/../assets/tutorials/generating-terrain/final-final.png)
 
