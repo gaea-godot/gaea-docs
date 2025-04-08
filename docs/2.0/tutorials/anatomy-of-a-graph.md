@@ -6,9 +6,9 @@ Graphs in Gaea all have to lead to the Output Node in order for the generation t
 
 ![A screenshot highlighting the input and output slots of nodes](/../assets/tutorials/anatomy-of-a-graph/slots.png)
 
-Gaea nodes have input and output slots. On the left side of the node, we have the input ones, and on the right, the output ones. Input slots for arguments (such as in the SimplexSmooth2D node, allow for overriding the values set in the node interface, but are optional).
+Gaea nodes have input and output slots. They're located on the left and right sides of the nodes, respectively. Input slots for arguments (such as in the SimplexSmooth2D node, see `frequency`, `lacunarity` & `octaves`), allow for overriding the values set in the node interface, but are **optional**.
 
-This is how you'll connect nodes to each other. 
+This is how you'll connect nodes to each other. Click and drag on a slot to create a wire, then connect that to another slot of the same type.
 
 ### Slot Types
 Slot types are differentiated by their colors:
